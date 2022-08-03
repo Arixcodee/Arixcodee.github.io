@@ -12,7 +12,7 @@ TikTok: rayyarr_
 
 <div id='Content'><p id="idgeser"></p>
 
-<div><blockquote id='bq'><img id="foto1" src="https://i.postimg.cc/VkfhY6bm/wuhu.gif"/><img id="foto2" src="https://i.postimg.cc/kMNwBCC4/peach-goma-1.gif"/><img id="foto3" src="https://i.postimg.cc/mDHVzxhs/0906-peacegoma.gif"/><p id="katakata"></p><p id="katabawah"></p><p id="akhiran" onClick="menuju();">[ Kirim WhatsApp &#128157; ]</p></blockquote></div>
+<div><blockquote id='bq'><img id="foto1" src="https://c.tenor.com/aZZNd6AZPCoAAAAi/heart-happy.gif'"/><img id="foto2" src="https://c.tenor.com/aZZNd6AZPCoAAAAi/heart-happy.gif"/><img id="foto3" src="https://i.postimg.cc/SQcqqLCH/ezgif-5-3cca081227.gif"/><p id="katakata"></p><p id="katabawah"></p><p id="akhiran" onClick="menuju();">[ Kirim WhatsApp &#128157; ]</p></blockquote></div>
 
 <div id="contTom" style="display:none;"><a id="By" class='button' onClick="terima()"></i>Sayang</a><b id='buttonv2'></b><a id="Bn" class='button' onClick="tolak()"></i>Engga</a></div>
 </div>
@@ -64,17 +64,17 @@ TikTok: rayyarr_
 			today = dd + ' ' + monthNames[today.getMonth()] + ' ' + yyyy;
 			
             function play() {var audio = new Audio('' + linkmp3);audio.play();}
-			async function menuju(){if(fungsi==2){await swals.fire('Kirim pesan ke WhatsApp aku, ya!');window.location = "https://wa.me/08386005074?text=" + pesanwhatsapp;}}
+			async function menuju(){if(fungsi==2){await swals.fire('Kirim pesan ke WhatsApp aku, ya!');window.location = "https://wa.me/6285796430430?text=" + pesanwhatsapp;}}
 
             async function mulaitanya(){
-            	var { isConfirmed: tanyawal } = await swals.fire({title: `Mau isi nama dulu atau langsung aja?`, imageUrl: 'https://i.postimg.cc/0j2LDLxP/heart-happy.gif', imageWidth: 120, imageHeight: 120, confirmButtonText: 'Isi Nama', cancelButtonText: 'Langsung Aja', allowOutsideClick: false, showCancelButton: true,
+            	var { isConfirmed: tanyawal } = await swals.fire({title: `Mau isi nama dulu atau langsung aja?`, imageUrl: 'https://i.postimg.cc/vmjM83Pw/ezgif-5-f3de279a08.gif', imageWidth: 120, imageHeight: 120, confirmButtonText: 'Isi Nama', cancelButtonText: 'Langsung Aja', allowOutsideClick: false, showCancelButton: true,
                 });if(tanyawal){mulai();} else {nama = 'Kamu';lanjut();play();}
             }
 
             async function mulai(){
                 var { value: nama } = await swals.fire({
                     title: 'Masukin nama kamu', input: 'text',
-                    imageUrl: 'https://i.postimg.cc/0j2LDLxP/heart-happy.gif', imageWidth: 120, imageHeight: 120, allowOutsideClick: false, showCancelButton: false,
+                    imageUrl: 'https://i.postimg.cc/vmjM83Pw/ezgif-5-f3de279a08.gif', imageWidth: 120, imageHeight: 120, allowOutsideClick: false, showCancelButton: false,
                 });
                 if(nama && nama.length < 11){
                 	window.nama = nama;lanjut();play();
