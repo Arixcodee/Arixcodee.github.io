@@ -67,14 +67,14 @@ TikTok: rayyarr_
 			async function menuju(){if(fungsi==2){await swals.fire('Kirim pesan ke WhatsApp aku, ya!');window.location = "https://wa.me/6285796430430?text=" + pesanwhatsapp;}}
 
             async function mulaitanya(){
-            	var { isConfirmed: tanyawal } = await swals.fire({title: `Mau isi nama dulu atau langsung aja?`, imageUrl: 'https://i.postimg.cc/vmjM83Pw/ezgif-5-f3de279a08.gif', imageWidth: 120, imageHeight: 120, confirmButtonText: 'Isi Nama', cancelButtonText: 'Langsung Aja', allowOutsideClick: false, showCancelButton: true,
+            	var { isConfirmed: tanyawal } = await swals.fire({title: `Mau isi nama dulu atau langsung aja?`, imageUrl: 'https://c.tenor.com/XyfkuomEwj4AAAAi/hello.gif', imageWidth: 120, imageHeight: 120, confirmButtonText: 'Isi Nama', cancelButtonText: 'Langsung Aja', allowOutsideClick: false, showCancelButton: true,
                 });if(tanyawal){mulai();} else {nama = 'Kamu';lanjut();play();}
             }
 
             async function mulai(){
                 var { value: nama } = await swals.fire({
                     title: 'Masukin nama kamu', input: 'text',
-                    imageUrl: 'https://i.postimg.cc/vmjM83Pw/ezgif-5-f3de279a08.gif', imageWidth: 120, imageHeight: 120, allowOutsideClick: false, showCancelButton: false,
+                    imageUrl: 'https://c.tenor.com/XyfkuomEwj4AAAAi/hello.gif', imageWidth: 120, imageHeight: 120, allowOutsideClick: false, showCancelButton: false,
                 });
                 if(nama && nama.length < 11){
                 	window.nama = nama;lanjut();play();
